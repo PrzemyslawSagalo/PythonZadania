@@ -14,6 +14,7 @@ def Mfactorial(n):
 	
 	return val_factorial 
 
+# Only to check
 # for i in xrange(10):
 # 	if Mfactorial(i) == math.factorial(i):
 # 		print i, 'OK'
