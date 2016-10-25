@@ -23,6 +23,6 @@ def iter_fibonacci(n):
 	return l_fib[n]
 
 # Only for test
-test_val = 23
-if rek_fibonacci(test_val) == iter_fibonacci(test_val):
-	print 'OK.'
+# test_val = 23
+# if rek_fibonacci(test_val) == iter_fibonacci(test_val):
+# 	print 'OK.'
