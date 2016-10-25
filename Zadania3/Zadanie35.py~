@@ -11,12 +11,10 @@ while i < number:
 	whole_line_str += '....|'
 	i += 1
 	if i >= 1 and i <= 9:
-		whole_line_num += '{0:5d}'.format(i)
+		whole_line_num += '    {}'.format(i)
 	elif i > 9:
-		whole_line_num += '{0:5d}'.format(i)	
+		whole_line_num += '   {}'.format(i)	
 	
 whole = whole_line_str + '\n' + whole_line_num
 
 print whole
-
-# '{0:5d}'.format(i)
