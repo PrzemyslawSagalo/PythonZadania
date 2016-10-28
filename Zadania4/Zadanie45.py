@@ -14,24 +14,33 @@ def rev_iter(seq):
 
 def rev_rek(seq):
 	"Odwracanie calej listy wersja rekurencyjna"
-	if seq:
+	if len(seq):
 		return rev_rek(seq[1:]) + seq[:1]
 	else:
 		return []
 
-def odwracanie(L, left, right, ver='iter'):
+
+def odwracanie(L, left, right, ver):
 	"""Odwracanie wybranego fragmentu listy wersja zalezy od wartosci ver.
 	ver='iter' - wersja iteracyjna, ver='rek' - wersja rekurencyjna"""
+
+	L = list(L)
+
 	par_l = L[left:right+1]
 	
 	if ver == 'iter':
 		L[left:right+1] = rev_iter(par_l)
 	elif ver == 'rek':
 		L[left:right+1] = rev_rek(par_l)
-		print '\n', L[left:right+1]
 
 	return L
 
-print 'Lista odwrocona rekurencyjnie', odwracanie(LI, 1, 3, 'rek')
 
-print 'Lista odwrocona iteracyjnie', odwracanie(LI, 1, 3)
+# ----------------------------------------------------
+# Test
+rekurencyjnie = odwracanie(LI, 1, 3, 'rek')
+iteracyjnie = odwracanie(LI, 1, 3, 'iter')
+
+
+print 'Lista odwrocona rekurencyjnie', rekurencyjnie
+print 'Lista odwrocona iteracyjnie', iteracyjnie
