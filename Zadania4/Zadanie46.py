@@ -10,7 +10,8 @@ def sum_seq(seq):
 
 	return val_sum
 
-
+#------------------------------------------------
+# Test
 test_seq = [1,(2,3),[],[3,4]]
 
 print sum_seq(test_seq)
