@@ -56,5 +56,7 @@ def zadanie36():
 
 	return total
 
+# ---------------------------------------------
+# Test
 print zadanie35()
 print zadanie36()
