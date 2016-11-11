@@ -5,12 +5,6 @@ def GCD(a, b):
         a, b = b, a%b
     return a
 
-def fractional_form(a, b):
-	if b != 1:
-		print a, '/' ,b
-	elif b == 1:
-		print a 
-
 def add_frac(frac1, frac2):
 	"""
 	 frac1 + frac2
