@@ -1,4 +1,4 @@
-# Python 2.7.4
+# Python 2.7.4.
 
 import unittest
 from fracs import *
@@ -10,6 +10,7 @@ class TestFractions(unittest.TestCase):
 
 	def test_add_frac(self):
 		self.assertEqual(add_frac([1, 2], [1, 3]), [5, 6])
+		self.assertEqual(add_frac([1, 2], [1, 2]), [1, 1])
 
 	def test_sub_frac(self):
 		self.assertEqual(sub_frac([1, 2], [1, 3]), [1, 6])
