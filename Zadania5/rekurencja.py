@@ -1,4 +1,4 @@
-# Python 2.7.4.
+# Python 2.7.4
 
 def fibonacci(n):
     """Ciag Fibonacciego (definicja rekurencyjna)."""
