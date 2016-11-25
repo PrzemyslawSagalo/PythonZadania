@@ -40,8 +40,14 @@ class Point:
         y = self.y + other.y
         return Point(x, y)
 
-    # def __sub__(self, other): pass  # v1 - v2
-    #
+    def __sub__(self, other):
+        """
+        v1 - v2
+        """
+        x = self.x - other.x
+        y = self.y - other.y
+        return Point(x, y)
+
     # def __mul__(self, other): pass  # v1 * v2, iloczyn skalarny
     #
     # def cross(self, other):         # v1 x v2, iloczyn wektorowy 2D
