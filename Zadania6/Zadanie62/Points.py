@@ -1,4 +1,5 @@
 # Python 2.7.4
+import math
 
 class Point:
     """Klasa reprezentujaca punkty na plaszczyznie."""
@@ -57,4 +58,8 @@ class Point:
     def cross(self, other):
         return self.x * other.y - self.y * other.x
 
-    # def length(self): pass          # dlugosc wektora
+    def length(self):
+        """
+        dlugosc wektora
+        """
+        return math.sqrt(self.__mul__(self))

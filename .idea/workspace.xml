@@ -45,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test62.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Test62.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
+            <state relative-caret-position="401">
+              <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
               <folding>
                 <element signature="e#16#31#0" expanded="true" />
               </folding>
@@ -57,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Points.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Points.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Points.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+            <state relative-caret-position="366">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -219,7 +219,7 @@
       <recent name="$PROJECT_DIR$/Zadania6/Zadanie61" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests in TestTime (1)">
+  <component name="RunManager" selected="Python tests.Nosetest TestTime.test_length">
     <configuration default="false" name="Nosetests in TestTime (1)" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,23 +239,6 @@
       <option name="USE_PATTERN" value="false" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="testy00" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zadania6/Zadanie62" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonZadania" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania6/Zadanie62/testy00.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="Nosetest TestTime.test_eq" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
@@ -313,6 +296,27 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py" />
       <option name="CLASS_NAME" value="TestTime" />
       <option name="METHOD_NAME" value="test_sub" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetest TestTime.test_length" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zadania6/Zadanie62" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonZadania" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py" />
+      <option name="CLASS_NAME" value="TestTime" />
+      <option name="METHOD_NAME" value="test_length" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -457,18 +461,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in TestTime (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.testy00" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_eq" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_add" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_sub" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_eq" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_add" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_sub" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_length" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in TestTime (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_sub" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_add" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_eq" />
-        <item index="4" class="java.lang.String" itemvalue="Python.testy00" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_length" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in TestTime (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_sub" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_add" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_eq" />
       </list>
     </recent_temporary>
   </component>
@@ -492,17 +496,20 @@
     <history-entry file="Nosetest_TestTime_test_add - 2016.11.25 at 15h 55m 16s.xml">
       <configuration name="Nosetest TestTime.test_add" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_TestTime_test_eq - 2016.11.25 at 15h 45m 43s.xml">
-      <configuration name="Nosetest TestTime.test_eq" configurationId="tests" />
+    <history-entry file="Nosetest_TestTime_test_length - 2016.11.25 at 16h 12m 41s.xml">
+      <configuration name="Nosetest TestTime.test_length" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetest_TestTime_test_length - 2016.11.25 at 16h 13m 15s.xml">
+      <configuration name="Nosetest TestTime.test_length" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetest_TestTime_test_length - 2016.11.25 at 16h 13m 35s.xml">
+      <configuration name="Nosetest TestTime.test_length" configurationId="tests" />
     </history-entry>
     <history-entry file="Nosetest_TestTime_test_sub - 2016.11.25 at 15h 55m 37s.xml">
       <configuration name="Nosetest TestTime.test_sub" configurationId="tests" />
     </history-entry>
     <history-entry file="Nosetest_TestTime_test_sub - 2016.11.25 at 16h 02m 27s.xml">
       <configuration name="Nosetest TestTime.test_sub" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_in_TestTime_(1) - 2016.11.25 at 12h 04m 19s.xml">
-      <configuration name="Nosetests in TestTime (1)" configurationId="tests" />
     </history-entry>
     <history-entry file="Nosetests_in_TestTime_(1) - 2016.11.25 at 15h 52m 40s.xml">
       <configuration name="Nosetests in TestTime (1)" configurationId="tests" />
@@ -512,9 +519,6 @@
     </history-entry>
     <history-entry file="Nosetests_in_TestTime_(1) - 2016.11.25 at 16h 08m 19s.xml">
       <configuration name="Nosetests in TestTime (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_in_TestTime_(2) - 2016.11.24 at 11h 19m 08s.xml">
-      <configuration name="Nosetests in TestTime (2)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -669,21 +673,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py">
+    <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Points.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="366">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Points.py">
+    <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="401">
+          <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+          <folding>
+            <element signature="e#16#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

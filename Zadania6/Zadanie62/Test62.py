@@ -2,6 +2,7 @@
 
 import unittest
 import Points
+import math
 
 class TestTime(unittest.TestCase):
 
@@ -34,6 +35,10 @@ class TestTime(unittest.TestCase):
 
     def test_cross(self):
         self.assertEqual(self.point1.cross(self.point2), 1)
+
+    def test_length(self):
+        self.assertEqual(self.point2.length(), math.sqrt(5))
+        self.assertEqual(self.point0.length(), 0)
 
     def tearDown(self):
         self.point1 = None
