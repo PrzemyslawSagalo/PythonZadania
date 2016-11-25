@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1a3aad3-8b31-4e44-9e0c-a2a9e680df8b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Zadania6/Zadanie62/Points.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Zadania6/Zadanie62/testy00.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Zadania6/Zadanie62/Zadanie62.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Zadania6/Zadanie62/Points.py" afterPath="$PROJECT_DIR$/Zadania6/Zadanie62/Points.py" />
     </list>
     <ignored path="PythonZadania.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +29,8 @@
       <file leaf-file-name="Zadanie61.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie61/Zadanie61.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -36,8 +39,8 @@
       <file leaf-file-name="Test61.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie61/Test61.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+            <state relative-caret-position="45">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -45,12 +48,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Zadanie62.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Zadanie62.py">
+      <file leaf-file-name="Test62.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="315">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#16#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,8 +63,18 @@
       <file leaf-file-name="Points.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Points.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="390">
+              <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testy00.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/testy00.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -86,6 +101,8 @@
         <option value="$PROJECT_DIR$/Zadania6/Zadanie61/Test61.py" />
         <option value="$PROJECT_DIR$/Zadania6/Zadanie62/Zadanie62.py" />
         <option value="$PROJECT_DIR$/Zadania6/Zadanie62/Points.py" />
+        <option value="$PROJECT_DIR$/Zadania6/Zadanie62/testy00.py" />
+        <option value="$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py" />
       </list>
     </option>
   </component>
@@ -205,79 +222,20 @@
       <recent name="$PROJECT_DIR$/Zadania6/Zadanie61" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetest TestTime.test_cmp">
-    <configuration default="false" name="Nosetests in TestTime" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Nosetest TestTime.test_eq">
+    <configuration default="false" name="Nosetest TestTime.test_print" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zadania6/Zadanie61" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zadania6/Zadanie62" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonZadania" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania6/Zadanie61/Test61.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py" />
       <option name="CLASS_NAME" value="TestTime" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Nosetests in TestTime (2)" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zadania6/Zadanie61" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonZadania" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania6/Zadanie61/Test61.py" />
-      <option name="CLASS_NAME" value="TestTime" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="testy01" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zadania6/Zadanie61" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonZadania" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania6/Zadanie61/testy01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Nosetest TestTime.test_add" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zadania6/Zadanie61" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonZadania" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania6/Zadanie61/Test61.py" />
-      <option name="CLASS_NAME" value="TestTime" />
-      <option name="METHOD_NAME" value="test_add" />
+      <option name="METHOD_NAME" value="test_print" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -286,19 +244,78 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Nosetest TestTime.test_cmp" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Nosetests in TestTime (1)" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zadania6/Zadanie61" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zadania6/Zadanie62" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonZadania" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania6/Zadanie61/Test61.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py" />
       <option name="CLASS_NAME" value="TestTime" />
-      <option name="METHOD_NAME" value="test_cmp" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testy00" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zadania6/Zadanie62" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonZadania" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania6/Zadanie62/testy00.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetests in Test62" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zadania6/Zadanie62" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonZadania" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetest TestTime.test_eq" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zadania6/Zadanie62" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonZadania" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py" />
+      <option name="CLASS_NAME" value="TestTime" />
+      <option name="METHOD_NAME" value="test_eq" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -442,19 +459,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in TestTime" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in TestTime (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.testy01" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_add" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_cmp" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_print" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in TestTime (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.testy00" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in Test62" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_eq" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_cmp" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in TestTime" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_add" />
-        <item index="3" class="java.lang.String" itemvalue="Python.testy01" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in TestTime (2)" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_eq" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in TestTime (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.testy00" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_print" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in Test62" />
       </list>
     </recent_temporary>
   </component>
@@ -472,23 +489,17 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetest_TestTime_test_add - 2016.11.24 at 11h 22m 29s.xml">
-      <configuration name="Nosetest TestTime.test_add" configurationId="tests" />
+    <history-entry file="Nosetest_TestTime_test_eq - 2016.11.25 at 12h 04m 45s.xml">
+      <configuration name="Nosetest TestTime.test_eq" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_TestTime_test_cmp - 2016.11.24 at 11h 23m 11s.xml">
-      <configuration name="Nosetest TestTime.test_cmp" configurationId="tests" />
+    <history-entry file="Nosetest_TestTime_test_print - 2016.11.25 at 11h 47m 08s.xml">
+      <configuration name="Nosetest TestTime.test_print" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_TestTime_test_cmp - 2016.11.24 at 11h 23m 14s.xml">
-      <configuration name="Nosetest TestTime.test_cmp" configurationId="tests" />
+    <history-entry file="Nosetest_TestTime_test_print - 2016.11.25 at 11h 53m 23s.xml">
+      <configuration name="Nosetest TestTime.test_print" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_TestTime_test_cmp - 2016.11.24 at 11h 23m 16s.xml">
-      <configuration name="Nosetest TestTime.test_cmp" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetest_TestTime_test_cmp - 2016.11.24 at 11h 24m 02s.xml">
-      <configuration name="Nosetest TestTime.test_cmp" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetest_TestTime_test_cmp - 2016.11.24 at 11h 24m 05s.xml">
-      <configuration name="Nosetest TestTime.test_cmp" configurationId="tests" />
+    <history-entry file="Nosetests_in_Test62 - 2016.11.25 at 11h 50m 17s.xml">
+      <configuration name="Nosetests in Test62" configurationId="tests" />
     </history-entry>
     <history-entry file="Nosetests_in_TestTime - 2016.11.24 at 11h 21m 01s.xml">
       <configuration name="Nosetests in TestTime" configurationId="tests" />
@@ -497,6 +508,12 @@
       <configuration name="Nosetests in TestTime" configurationId="tests" />
     </history-entry>
     <history-entry file="Nosetests_in_TestTime_(1) - 2016.11.24 at 11h 18m 52s.xml">
+      <configuration name="Nosetests in TestTime (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_TestTime_(1) - 2016.11.25 at 11h 47m 57s.xml">
+      <configuration name="Nosetests in TestTime (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_TestTime_(1) - 2016.11.25 at 12h 04m 19s.xml">
       <configuration name="Nosetests in TestTime (1)" configurationId="tests" />
     </history-entry>
     <history-entry file="Nosetests_in_TestTime_(2) - 2016.11.24 at 11h 19m 08s.xml">
@@ -512,18 +529,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925338" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925338" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -560,11 +577,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Zadanie62.py">
+    <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#16#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -585,34 +604,44 @@
     <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie61/testy01.py" />
     <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie61/Zadanie61.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie61/Test61.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+        <state relative-caret-position="45">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Zadanie62.py">
+    <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/testy00.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Points.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="390">
+          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
           <folding />
         </state>
       </provider>
