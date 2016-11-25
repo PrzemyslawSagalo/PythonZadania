@@ -32,9 +32,14 @@ class Point:
         """
         return not self.__eq__(other)
 
-    # # Punkty jako wektory 2D.
-    # def __add__(self, other): pass  # v1 + v2
-    #
+    def __add__(self, other):
+        """
+        v1 + v2
+        """
+        x = self.x + other.x
+        y = self.y + other.y
+        return Point(x, y)
+
     # def __sub__(self, other): pass  # v1 - v2
     #
     # def __mul__(self, other): pass  # v1 * v2, iloczyn skalarny
