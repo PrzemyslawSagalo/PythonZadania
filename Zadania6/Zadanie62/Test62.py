@@ -29,6 +29,9 @@ class TestTime(unittest.TestCase):
     def test_sub(self):
         self.assertEqual(self.point1 - self.point2, Points.Point(0, -1))
 
+    def test_mul(self):
+        self.assertEqual(self.point1 * self.point2, 3)
+
     def tearDown(self):
         self.point1 = None
 

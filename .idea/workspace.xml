@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1a3aad3-8b31-4e44-9e0c-a2a9e680df8b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Zadania6/Zadanie62/Points.py" afterPath="$PROJECT_DIR$/Zadania6/Zadanie62/Points.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py" afterPath="$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py" />
     </list>
@@ -48,8 +49,8 @@
       <file leaf-file-name="Test62.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            <state relative-caret-position="345">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="e#16#31#0" expanded="true" />
               </folding>
@@ -60,8 +61,8 @@
       <file leaf-file-name="Points.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Points.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+            <state relative-caret-position="216">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -219,7 +220,7 @@
       <recent name="$PROJECT_DIR$/Zadania6/Zadanie61" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetest TestTime.test_sub">
+  <component name="RunManager" selected="Python tests.Nosetests in TestTime (1)">
     <configuration default="false" name="Nosetests in TestTime (1)" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -464,9 +465,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_sub" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_add" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in TestTime (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in TestTime (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_sub" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_add" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest TestTime.test_eq" />
         <item index="4" class="java.lang.String" itemvalue="Python.testy00" />
       </list>
@@ -498,11 +499,8 @@
     <history-entry file="Nosetest_TestTime_test_sub - 2016.11.25 at 15h 55m 37s.xml">
       <configuration name="Nosetest TestTime.test_sub" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_TestTime - 2016.11.24 at 11h 22m 50s.xml">
-      <configuration name="Nosetests in TestTime" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_in_TestTime_(1) - 2016.11.24 at 11h 18m 52s.xml">
-      <configuration name="Nosetests in TestTime (1)" configurationId="tests" />
+    <history-entry file="Nosetest_TestTime_test_sub - 2016.11.25 at 16h 02m 27s.xml">
+      <configuration name="Nosetest TestTime.test_sub" configurationId="tests" />
     </history-entry>
     <history-entry file="Nosetests_in_TestTime_(1) - 2016.11.25 at 11h 47m 57s.xml">
       <configuration name="Nosetests in TestTime (1)" configurationId="tests" />
@@ -511,6 +509,9 @@
       <configuration name="Nosetests in TestTime (1)" configurationId="tests" />
     </history-entry>
     <history-entry file="Nosetests_in_TestTime_(1) - 2016.11.25 at 15h 52m 40s.xml">
+      <configuration name="Nosetests in TestTime (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_TestTime_(1) - 2016.11.25 at 16h 03m 06s.xml">
       <configuration name="Nosetests in TestTime (1)" configurationId="tests" />
     </history-entry>
     <history-entry file="Nosetests_in_TestTime_(2) - 2016.11.24 at 11h 19m 08s.xml">
@@ -671,16 +672,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Points.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        <state relative-caret-position="216">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        <state relative-caret-position="345">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="e#16#31#0" expanded="true" />
           </folding>
