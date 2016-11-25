@@ -16,10 +16,12 @@ class TestTime(unittest.TestCase):
         self.assertEqual(self.point1.__repr__(), 'Point(1, 1)')
 
     def test_eq(self):
-
         self.assertTrue(self.point1.__eq__(self.point1bis))
         self.assertFalse(self.point1.__eq__(self.point0))
 
+    def test_ne(self):
+        self.assertFalse(self.point1.__ne__(self.point1bis))
+        self.assertTrue(self.point1.__ne__(self.point0))
 
     def tearDown(self):
         self.point1 = None

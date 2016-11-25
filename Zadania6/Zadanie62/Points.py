@@ -26,9 +26,12 @@ class Point:
         """
         return self.x == other.x and self.y == other.y
 
-    # def __ne__(self, other):        # obsluga point1 != point2
-    #     return not self == other
-    #
+    def __ne__(self, other):
+        """
+        obsluga point1 != point2
+        """
+        return not self.__eq__(other)
+
     # # Punkty jako wektory 2D.
     # def __add__(self, other): pass  # v1 + v2
     #
