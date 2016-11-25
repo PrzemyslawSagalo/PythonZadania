@@ -54,7 +54,7 @@ class Point:
         """
         return (self.x * other.x) + (self.y * other.y)
 
-    # def cross(self, other):         # v1 x v2, iloczyn wektorowy 2D
-    #     return self.x * other.y - self.y * other.x
-    #
+    def cross(self, other):
+        return self.x * other.y - self.y * other.x
+
     # def length(self): pass          # dlugosc wektora

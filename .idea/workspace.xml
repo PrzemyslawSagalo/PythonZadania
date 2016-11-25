@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1a3aad3-8b31-4e44-9e0c-a2a9e680df8b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Zadania6/Zadanie62/Points.py" afterPath="$PROJECT_DIR$/Zadania6/Zadanie62/Points.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py" afterPath="$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py" />
     </list>
@@ -46,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test62.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test62.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="465">
+              <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
               <folding>
                 <element signature="e#16#31#0" expanded="true" />
               </folding>
@@ -58,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Points.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Points.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Points.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="396">
+              <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -502,9 +501,6 @@
     <history-entry file="Nosetest_TestTime_test_sub - 2016.11.25 at 16h 02m 27s.xml">
       <configuration name="Nosetest TestTime.test_sub" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_TestTime_(1) - 2016.11.25 at 11h 47m 57s.xml">
-      <configuration name="Nosetests in TestTime (1)" configurationId="tests" />
-    </history-entry>
     <history-entry file="Nosetests_in_TestTime_(1) - 2016.11.25 at 12h 04m 19s.xml">
       <configuration name="Nosetests in TestTime (1)" configurationId="tests" />
     </history-entry>
@@ -512,6 +508,9 @@
       <configuration name="Nosetests in TestTime (1)" configurationId="tests" />
     </history-entry>
     <history-entry file="Nosetests_in_TestTime_(1) - 2016.11.25 at 16h 03m 06s.xml">
+      <configuration name="Nosetests in TestTime (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_TestTime_(1) - 2016.11.25 at 16h 08m 19s.xml">
       <configuration name="Nosetests in TestTime (1)" configurationId="tests" />
     </history-entry>
     <history-entry file="Nosetests_in_TestTime_(2) - 2016.11.24 at 11h 19m 08s.xml">
@@ -670,21 +669,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Points.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="465">
+          <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
           <folding>
             <element signature="e#16#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Points.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>

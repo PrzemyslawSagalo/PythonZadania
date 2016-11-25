@@ -32,6 +32,9 @@ class TestTime(unittest.TestCase):
     def test_mul(self):
         self.assertEqual(self.point1 * self.point2, 3)
 
+    def test_cross(self):
+        self.assertEqual(self.point1.cross(self.point2), 1)
+
     def tearDown(self):
         self.point1 = None
 
