@@ -1,4 +1,4 @@
-# Python 2.7.4
+# Python 2.7.4.
 
 import unittest
 import Points
@@ -17,12 +17,12 @@ class TestTime(unittest.TestCase):
         self.assertEqual(self.point1.__repr__(), 'Point(1, 1)')
 
     def test_eq(self):
-        self.assertTrue(self.point1.__eq__(self.point1bis))
-        self.assertFalse(self.point1.__eq__(self.point0))
+        self.assertTrue(self.point1 == self.point1bis)
+        self.assertFalse(self.point1 == self.point0)
 
     def test_ne(self):
-        self.assertFalse(self.point1.__ne__(self.point1bis))
-        self.assertTrue(self.point1.__ne__(self.point0))
+        self.assertFalse(self.point1 != self.point1bis)
+        self.assertTrue(self.point1 != self.point0)
 
     def test_add(self):
         self.assertEqual(self.point1 + self.point2, Points.Point(2, 3))
@@ -41,7 +41,10 @@ class TestTime(unittest.TestCase):
         self.assertEqual(self.point0.length(), 0)
 
     def tearDown(self):
+        self.point0 = None
         self.point1 = None
+        self.point1bis = None
+        self.point2 = None
 
 if __name__ == "__main__":
     unittest.main()     # wszystkie testy
