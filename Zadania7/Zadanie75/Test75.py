@@ -19,7 +19,7 @@ class TestTime(unittest.TestCase):
         self.assertEqual(self.C0.pt, self.p00)
         self.assertEqual(self.C0.radius, 1)
 
-        # self.assertRaises(Points.Point(-1,1,1), ValueError)
+        self.assertRaises(ValueError("promien ujemny"), circles.Circle(1,1,-1))
 
     def test_repr(self):
         self.assertEqual(repr(self.p00), "Circle(0, 0, 1)")
@@ -42,6 +42,8 @@ class TestTime(unittest.TestCase):
         self.C0.move(1,-1)
         self.assertEqual(self.C0.pt, Points.Point(2,0))
 
+    def test_cover(self):
+        self.assertEqual(circles.Circle(1,1,5), circles.Circle(0, 0, 6))
 
     def tearDown(self):
         self.C0 = None

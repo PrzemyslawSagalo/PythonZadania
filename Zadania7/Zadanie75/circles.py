@@ -47,6 +47,8 @@ class Circle:
         """
         okrag pokrywajacy oba
         """
-        # x =
+        max_x = max([abs(self.pt.x) + self.radius, abs(other.pt.x) + other.radius])
+        max_y = max([max(abs(self.pt.y) + self.radius, abs(other.pt.y) + other.radius)])
+        max_radius = max([max_x, max_y])
 
-    # aself.assertRaises(ValueError, lambada: ~slef.zero)
+        return Circle(0, 0, max_radius)
