@@ -47,7 +47,11 @@ class TestTime(unittest.TestCase):
 
     def tearDown(self):
         self.C0 = None
+        self.C0prim = None
         self.C112 = None
+
+        self.p00 = None
+        self.p11 = None
 
 if __name__ == "__main__":
     unittest.main()     # wszystkie testy
