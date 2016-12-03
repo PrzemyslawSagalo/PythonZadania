@@ -5,7 +5,7 @@ import circles
 import Points
 import math
 
-class TestTime(unittest.TestCase):
+class TestCircles(unittest.TestCase):
 
     def setUp(self):
         self.C0 = circles.Circle()

@@ -20,7 +20,7 @@ class Circle:
         y = self.pt.y
         radius = self.radius
 
-        return "Circle({0}, {1}, {2})".format(x, y, radius)
+
 
     def __eq__(self, other):
         return self.pt == other.pt and self.radius == other.radius
