@@ -1,3 +1,5 @@
+# Python 2.7.4
+
 from fractions import gcd
 class Frac:
     """Klasa reprezentujaca ulamki."""

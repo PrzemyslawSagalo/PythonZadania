@@ -1,4 +1,4 @@
-# Python 2.7.4.
+# Python 2.7.4
 
 import unittest
 import fracs
@@ -15,7 +15,8 @@ class TestFracs(unittest.TestCase):
         self.assertEqual(str(fracs.Frac(2,1)), '2')
         self.assertEqual(str(fracs.Frac(1,2)), '1/2')
 
-        # self.assertRaises(ValueError, fracs.Frac(2,0))
+        with self.assertRaises(ValueError):
+            fracs.Frac(2, 0)
 
     def test_rep(self):
         self.assertEqual(repr(self.f12), 'Frac(1,2)')
