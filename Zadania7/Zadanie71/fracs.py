@@ -64,14 +64,37 @@ class Frac:
         # tutaj self jest frac, a other jest int!
         return Frac(self.y * other - self.x, self.y)
 
-    # def __mul__(self, other): pass  # frac1*frac2, frac*int
-    #
-    # __rmul__ = __mul__              # int*frac
-    #
-    # def __div__(self, other): pass  # frac1/frac2, frac/int
-    #
-    # def __rdiv__(self, other): pass # int/frac
-    #
+    def __mul__(self, other):
+        """frac1*frac2, frac*int"""
+        if type(other) == float or type(other) == int:
+            other = Frac(float(other), 1)
+
+        result = [self.x * other.x, self.y * other.y]
+        val_GCD = gcd(*result)
+        return Frac(result[0] / val_GCD, result[1] / val_GCD)
+
+    __rmul__ = __mul__              # int*frac
+
+    def __div__(self, other):
+        """frac1/frac2, frac/int"""
+        if type(other) == float or type(other) == int:
+            other = Frac(float(other), 1)
+
+        result = [self.x * other.y, self.y * other.x]
+        val_GCD = gcd(*result)
+
+        return Frac(result[0] / val_GCD, result[1] / val_GCD)
+
+    def __rdiv__(self, other):
+        """int/frac"""
+        if type(other) == float or type(other) == int:
+            other = Frac(float(other), 1)
+
+        result = [self.y * other.x, self.x * other.y]
+        val_GCD = gcd(*result)
+
+        return Frac(result[0] / val_GCD, result[1] / val_GCD)
+
     # operatory jednoargumentowe
     def __pos__(self):  # +frac = (+1)*frac
         if self.x < 0 and self.y < 0:
@@ -104,4 +127,3 @@ class Frac:
     def __float__(self):
         """float(frac)"""
         return float(self.x) / self.y
-

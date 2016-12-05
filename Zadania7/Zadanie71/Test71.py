@@ -33,13 +33,20 @@ class TestFracs(unittest.TestCase):
         self.assertEqual(1 - self.f12, fracs.Frac(1,2))
         self.assertEqual(self.f12 - 1, fracs.Frac(-1,2))
 
+    def test_mul(self):
+        self.assertEqual(self.f12 * self.f13, fracs.Frac(1,6))
+        self.assertEqual(self.f12 * 2, fracs.Frac(1,1))
+        self.assertEqual(2 * self.f12, fracs.Frac(1,1))
+
+    def test_div(self):
+        self.assertEqual(self.f12 / self.f13, fracs.Frac(3,2))
+        self.assertEqual(self.f12 / 2, fracs.Frac(1,4))
+        self.assertEqual(2 / self.f12, fracs.Frac(4,1))
+
     def test_pos(self):
         self.assertEqual(fracs.Frac(-1,-2).__pos__(), self.f12)
         self.assertEqual(fracs.Frac(-1,2).__pos__(), self.f12)
         self.assertEqual(fracs.Frac(1,-2).__pos__(), self.f12)
-
-
-
 
     def test_neg(self):
         self.assertEqual(fracs.Frac(-1,-2).__neg__(), fracs.Frac(-1,2))
@@ -53,14 +60,10 @@ class TestFracs(unittest.TestCase):
     def test_float(self):
         self.assertEqual(self.f12.__float__(), 0.5)
 
-
-    # def test_eq(self):
-    #     self.assertTrue(self.C0 == self.C0prim)
-    #     self.assertFalse(self.C0 == self.C112)
-
     def tearDown(self):
-        pass
-        # self.C0 = None
+        self.f12 = None
+        self.f12prim = None
+        self.f13 = None
 
 if __name__ == "__main__":
     unittest.main()     # wszystkie testy
