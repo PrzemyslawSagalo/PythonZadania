@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1a3aad3-8b31-4e44-9e0c-a2a9e680df8b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Zadania7/Zadanie71/Test71.py" afterPath="$PROJECT_DIR$/Zadania7/Zadanie71/Test71.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Zadania7/Zadanie71/fracs.py" afterPath="$PROJECT_DIR$/Zadania7/Zadanie71/fracs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Zadania7/Zadanie75/Test75.py" afterPath="$PROJECT_DIR$/Zadania7/Zadanie75/Test75.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Zadania7/Zadanie75/circles.py" afterPath="$PROJECT_DIR$/Zadania7/Zadanie75/circles.py" />
     </list>
     <ignored path="PythonZadania.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fracs.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Zadania7/Zadanie71/fracs.py">
+      <file leaf-file-name="circles.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Zadania7/Zadanie75/circles.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="109" column="19" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
+            <state relative-caret-position="0">
+              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test71.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Zadania7/Zadanie71/Test71.py">
+      <file leaf-file-name="Test75.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Zadania7/Zadanie75/Test75.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="14" />
+              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
               <folding>
                 <element signature="e#16#31#0" expanded="true" />
               </folding>
@@ -71,11 +70,11 @@
         <option value="$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py" />
         <option value="$PROJECT_DIR$/Zadania6/Zadanie62/Points.py" />
         <option value="$PROJECT_DIR$/Zadania7/Zadanie75/testy00.py" />
-        <option value="$PROJECT_DIR$/Zadania7/Zadanie75/Test75.py" />
-        <option value="$PROJECT_DIR$/Zadania7/Zadanie75/circles.py" />
         <option value="$PROJECT_DIR$/Zadania7/Zadanie71/testy00.py" />
         <option value="$PROJECT_DIR$/Zadania7/Zadanie71/Test71.py" />
         <option value="$PROJECT_DIR$/Zadania7/Zadanie71/fracs.py" />
+        <option value="$PROJECT_DIR$/Zadania7/Zadanie75/Test75.py" />
+        <option value="$PROJECT_DIR$/Zadania7/Zadanie75/circles.py" />
       </list>
     </option>
   </component>
@@ -183,20 +182,20 @@
       <recent name="$PROJECT_DIR$/Zadania6/Zadanie61" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetest TestFracs.test_str">
-    <configuration default="false" name="Nosetest TestFracs.test_div" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Nosetest TestCircles.test_points_radius">
+    <configuration default="false" name="Nosetest TestCircles.test_points_radius" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zadania7/Zadanie71" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zadania7/Zadanie75" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonZadania" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania7/Zadanie71/Test71.py" />
-      <option name="CLASS_NAME" value="TestFracs" />
-      <option name="METHOD_NAME" value="test_div" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania7/Zadanie75/Test75.py" />
+      <option name="CLASS_NAME" value="TestCircles" />
+      <option name="METHOD_NAME" value="test_points_radius" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -205,7 +204,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Nosetest TestFracs.test_div (2)" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Nosetests in TestFracs" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -217,7 +216,49 @@
       <module name="PythonZadania" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania7/Zadanie71/Test71.py" />
       <option name="CLASS_NAME" value="TestFracs" />
-      <option name="METHOD_NAME" value="test_div" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetests in TestCircles (2)" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zadania7/Zadanie75" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonZadania" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania7/Zadanie75/Test75.py" />
+      <option name="CLASS_NAME" value="TestCircles" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetest TestCircles.test_repr" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zadania7/Zadanie75" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonZadania" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania7/Zadanie75/Test75.py" />
+      <option name="CLASS_NAME" value="TestCircles" />
+      <option name="METHOD_NAME" value="test_repr" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -226,63 +267,21 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Nosetest TestFracs.test_float" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Nosetests in TestCircles" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zadania7/Zadanie71" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zadania7/Zadanie75" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonZadania" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania7/Zadanie71/Test71.py" />
-      <option name="CLASS_NAME" value="TestFracs" />
-      <option name="METHOD_NAME" value="test_float" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania7/Zadanie75/Test75.py" />
+      <option name="CLASS_NAME" value="TestCircles" />
+      <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Nosetest TestFracs.test_pos" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zadania7/Zadanie71" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonZadania" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania7/Zadanie71/Test71.py" />
-      <option name="CLASS_NAME" value="TestFracs" />
-      <option name="METHOD_NAME" value="test_pos" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Nosetest TestFracs.test_str" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zadania7/Zadanie71" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonZadania" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Zadania7/Zadanie71/Test71.py" />
-      <option name="CLASS_NAME" value="TestFracs" />
-      <option name="METHOD_NAME" value="test_str" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PARAMS" value="" />
@@ -424,19 +423,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetest TestFracs.test_div" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetest TestFracs.test_div (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetest TestFracs.test_float" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest TestFracs.test_pos" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetest TestFracs.test_str" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetest TestCircles.test_points_radius" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in TestFracs" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in TestCircles (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest TestCircles.test_repr" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in TestCircles" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetest TestFracs.test_str" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetest TestFracs.test_pos" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetest TestFracs.test_float" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest TestFracs.test_div" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetest TestFracs.test_div (2)" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetest TestCircles.test_points_radius" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in TestCircles (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in TestCircles" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest TestCircles.test_repr" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in TestFracs" />
       </list>
     </recent_temporary>
   </component>
@@ -454,35 +453,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetest_TestFracs_test_mul - 2016.12.05 at 21h 11m 44s.xml">
-      <configuration name="Nosetest TestFracs.test_mul" configurationId="tests" />
+    <history-entry file="Nosetest_TestCircles_test_points_radius - 2016.12.05 at 22h 58m 25s.xml">
+      <configuration name="Nosetest TestCircles.test_points_radius" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_TestFracs_test_mul - 2016.12.05 at 21h 12m 24s.xml">
-      <configuration name="Nosetest TestFracs.test_mul" configurationId="tests" />
+    <history-entry file="Nosetest_TestCircles_test_points_radius - 2016.12.05 at 22h 58m 34s.xml">
+      <configuration name="Nosetest TestCircles.test_points_radius" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_TestFracs_test_mul - 2016.12.05 at 21h 12m 38s.xml">
-      <configuration name="Nosetest TestFracs.test_mul" configurationId="tests" />
+    <history-entry file="Nosetest_TestCircles_test_points_radius - 2016.12.05 at 22h 59m 07s.xml">
+      <configuration name="Nosetest TestCircles.test_points_radius" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_TestFracs_test_mul - 2016.12.05 at 21h 13m 08s.xml">
-      <configuration name="Nosetest TestFracs.test_mul" configurationId="tests" />
+    <history-entry file="Nosetest_TestCircles_test_points_radius - 2016.12.05 at 22h 59m 19s.xml">
+      <configuration name="Nosetest TestCircles.test_points_radius" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_TestFracs_test_pos - 2016.12.05 at 22h 33m 02s.xml">
-      <configuration name="Nosetest TestFracs.test_pos" configurationId="tests" />
+    <history-entry file="Nosetest_TestCircles_test_points_radius - 2016.12.05 at 23h 00m 07s.xml">
+      <configuration name="Nosetest TestCircles.test_points_radius" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_TestFracs_test_str - 2016.12.05 at 22h 33m 21s.xml">
-      <configuration name="Nosetest TestFracs.test_str" configurationId="tests" />
+    <history-entry file="Nosetest_TestCircles_test_points_radius - 2016.12.05 at 23h 00m 19s.xml">
+      <configuration name="Nosetest TestCircles.test_points_radius" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_TestFracs_test_str - 2016.12.05 at 22h 37m 16s.xml">
-      <configuration name="Nosetest TestFracs.test_str" configurationId="tests" />
+    <history-entry file="Nosetest_TestCircles_test_points_radius - 2016.12.05 at 23h 00m 29s.xml">
+      <configuration name="Nosetest TestCircles.test_points_radius" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_TestFracs_test_str - 2016.12.05 at 22h 37m 25s.xml">
-      <configuration name="Nosetest TestFracs.test_str" configurationId="tests" />
+    <history-entry file="Nosetests_in_TestCircles_(2) - 2016.12.05 at 22h 56m 25s.xml">
+      <configuration name="Nosetests in TestCircles (2)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_TestFracs_test_str - 2016.12.05 at 22h 37m 31s.xml">
-      <configuration name="Nosetest TestFracs.test_str" configurationId="tests" />
+    <history-entry file="Nosetests_in_TestCircles_(2) - 2016.12.05 at 22h 56m 34s.xml">
+      <configuration name="Nosetests in TestCircles (2)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_TestFracs_test_str - 2016.12.05 at 22h 40m 28s.xml">
-      <configuration name="Nosetest TestFracs.test_str" configurationId="tests" />
+    <history-entry file="Nosetests_in_TestCircles_(2) - 2016.12.05 at 22h 58m 00s.xml">
+      <configuration name="Nosetests in TestCircles (2)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -494,7 +493,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925338" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925338" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -537,7 +536,7 @@
         <state relative-caret-position="60">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#16#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -564,7 +563,7 @@
         <state relative-caret-position="555">
           <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
           <folding>
-            <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#16#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -583,7 +582,7 @@
         <state relative-caret-position="555">
           <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
           <folding>
-            <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#16#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -602,7 +601,7 @@
         <state relative-caret-position="555">
           <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
           <folding>
-            <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#16#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -621,7 +620,7 @@
         <state relative-caret-position="555">
           <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
           <folding>
-            <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#16#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -779,20 +778,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Zadania7/Zadanie75/testy00.py" />
-    <entry file="file://$PROJECT_DIR$/Zadania7/Zadanie75/circles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zadania7/Zadanie75/Test75.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Zadania7/Zadanie71/testy00.py" />
     <entry file="file://$PROJECT_DIR$/Zadania6/Zadanie62/Test62.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -818,20 +803,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Zadania7/Zadanie71/fracs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="109" column="19" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Zadania7/Zadanie71/Test71.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding>
+            <element signature="e#16#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zadania7/Zadanie75/Test75.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="14" />
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
           <folding>
             <element signature="e#16#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zadania7/Zadanie71/fracs.py">
+    <entry file="file://$PROJECT_DIR$/Zadania7/Zadanie75/circles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="109" column="19" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
           <folding />
         </state>
       </provider>
