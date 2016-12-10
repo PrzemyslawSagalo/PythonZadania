@@ -1,4 +1,4 @@
-# Python 2.7.4
+# Python 2.7.4.
 import math
 def heron(a, b, c):
     """Obliczanie pola powierzchni trojkata za pomoca wzoru

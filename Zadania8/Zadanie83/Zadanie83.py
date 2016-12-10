@@ -18,5 +18,22 @@ def calc_pi(n=100):
 
 
 # test
-print calc_pi(100000000)
-print math.pi
+print 'Wartosc Pi z modulu math wynosi', math.pi
+n = 10
+print 'Pi dla {} iteracji MC wynosi'.format(n), calc_pi(n)
+n = 1000
+print 'Pi dla {} iteracji MC wynosi'.format(n), calc_pi(n)
+n = 100000
+print 'Pi dla {} iteracji MC wynosi'.format(n), calc_pi(n)
+n = 10000000
+print 'Pi dla {} iteracji MC wynosi'.format(n), calc_pi(n)
+n = 100000000
+print 'Pi dla {} iteracji MC wynosi'.format(n), calc_pi(n)
+
+# ----------------------------------
+# Wartosc Pi z modulu math wynosi 3.14159265359
+# Pi dla 10 iteracji MC wynosi 2.8
+# Pi dla 1000 iteracji MC wynosi 3.092
+# Pi dla 100000 iteracji MC wynosi 3.14956
+# Pi dla 10000000 iteracji MC wynosi 3.141916
+# Pi dla 100000000 iteracji MC wynosi 3.141532

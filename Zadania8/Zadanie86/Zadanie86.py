@@ -1,3 +1,4 @@
+# Python 2.7.4
 def dyn_P(i, j):
     """
     Wersja dynamiczna
