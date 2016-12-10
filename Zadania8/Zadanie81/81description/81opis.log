@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.8)  10 DEC 2016 12:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.8)  10 DEC 2016 12:31
 entering extended mode
 **./81opis.tex
 (81opis.tex
@@ -970,7 +970,7 @@ Overfull \hbox (69.00421pt too wide) in paragraph at lines 83--85
 Here is how much of TeX's memory you used:
  14910 strings out of 493334
  278462 string characters out of 3139208
- 342387 words of memory out of 3000000
+ 343387 words of memory out of 3000000
  18133 multiletter control sequences out of 15000+200000
  13315 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -987,7 +987,7 @@ gram Files/MiKTeX 2.9/fonts/type1/public/pl/plr12.pfb><C:/Program Files/MiKTeX
 2.9/fonts/type1/public/pl/plr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/pl/plsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plti10.pf
 b>
-Output written on 81opis.pdf (4 pages, 116707 bytes).
+Output written on 81opis.pdf (4 pages, 116706 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
