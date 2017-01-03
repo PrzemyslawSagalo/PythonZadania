@@ -3,7 +3,6 @@
 import unittest
 import fracs
 
-
 class TestFracs(unittest.TestCase):
 
     def setUp(self):

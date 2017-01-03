@@ -5,11 +5,15 @@ class Frac:
     """Klasa reprezentujaca ulamki."""
 
     def __init__(self, x=0, y=1):
+
         # Sprawdzamy, czy y=0.
         if y == 0:
             raise ValueError
-        self.x = x
-        self.y = y
+        self.val_GCD = gcd(x, y)
+        self.x = x / self.val_GCD
+        self.y = y / self.val_GCD
+
+
 
     def __str__(self):
         """zwraca "x/y" lub "x" dla y=1"""
@@ -29,7 +33,6 @@ class Frac:
         """porownywanie"""
         f1 = float(self.x) / self.y
         f2 = float(other.x) / other.y
-        print f1, f2
         return cmp(f1, f2)
 
     def __add__(self, other):
@@ -38,13 +41,15 @@ class Frac:
             other = other.as_integer_ratio()
             other = Frac(other[0], other[1])
         if type(other) == int:
-            other = float(other)
-            other = other.as_integer_ratio()
-            other = Frac(other[0], other[1])
+            # other = float(other)
+            # other = other.as_integer_ratio()
+            # other = Frac(other[0], other[1])
+            other = Frac(other)
         result = [(self.x * other.y) + (self.y * other.x), self.y * other.y]
-        val_GCD = gcd(*result)
+        # val_GCD = gcd(*result)
 
-        return Frac(result[0] / val_GCD, result[1] / val_GCD)
+        # return Frac(result[0] / val_GCD, result[1] / val_GCD)
+        return Frac(result[0], result[1])
 
     __radd__ = __add__              # int+frac
 
