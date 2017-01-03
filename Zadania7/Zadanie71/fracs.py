@@ -59,13 +59,15 @@ class Frac:
             other = other.as_integer_ratio()
             other = Frac(other[0], other[1])
         if type(other) == int:
-            other = float(other)
-            other = other.as_integer_ratio()
-            other = Frac(other[0], other[1])
+            # other = float(other)
+            # other = other.as_integer_ratio()
+            # other = Frac(other[0], other[1])
+            other = Frac(other)
         result = [(self.x * other.y) - (self.y * other.x), self.y * other.y]
-        val_GCD = gcd(*result)
+        # val_GCD = gcd(*result)
 
-        return Frac(result[0] / val_GCD, result[1] / val_GCD)
+        # return Frac(result[0] / val_GCD, result[1] / val_GCD)
+        return Frac(result[0], result[1])
 
     def __rsub__(self, other):      # int-frac
         # tutaj self jest frac, a other jest int!
@@ -73,34 +75,42 @@ class Frac:
 
     def __mul__(self, other):
         """frac1*frac2, frac*int"""
-        if type(other) == float or type(other) == int:
-            other = Frac(float(other), 1)
+        # if type(other) == float or type(other) == int:
+        if type(other) == int:
+            other = Frac(other, 1)
 
         result = [self.x * other.x, self.y * other.y]
-        val_GCD = gcd(*result)
-        return Frac(result[0] / val_GCD, result[1] / val_GCD)
+        # val_GCD = gcd(*result)
+        # return Frac(result[0] / val_GCD, result[1] / val_GCD)
+        return Frac(result[0], result[1])
 
     __rmul__ = __mul__              # int*frac
 
     def __div__(self, other):
         """frac1/frac2, frac/int"""
-        if type(other) == float or type(other) == int:
-            other = Frac(float(other), 1)
+        # if type(other) == float or type(other) == int:
+        if type(other) == int:
+            other = Frac(other, 1)
 
         result = [self.x * other.y, self.y * other.x]
-        val_GCD = gcd(*result)
+        # val_GCD = gcd(*result)
 
-        return Frac(result[0] / val_GCD, result[1] / val_GCD)
+        # return Frac(result[0] / val_GCD, result[1] / val_GCD)
+        return Frac(result[0], result[1])
 
     def __rdiv__(self, other):
         """int/frac"""
-        if type(other) == float or type(other) == int:
-            other = Frac(float(other), 1)
+        # if type(other) == float or type(other) == int:
+        if type(other) == int:
+
+            other = Frac(other, 1)
 
         result = [self.y * other.x, self.x * other.y]
-        val_GCD = gcd(*result)
+        # val_GCD = gcd(*result)
 
-        return Frac(result[0] / val_GCD, result[1] / val_GCD)
+        # return Frac(result[0] / val_GCD, result[1] / val_GCD)
+        return Frac(result[0], result[1])
+
 
     # operatory jednoargumentowe
     def __pos__(self):  # +frac = (+1)*frac
