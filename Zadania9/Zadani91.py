@@ -12,7 +12,7 @@ head = None
 head = None                   # [], pusta lista
 head = Node(3, head)          # [3]
 head = Node(2, head)          # [2, 3]
-head = Node(4, head)          # [4, 2, 3]
+# head = Node(4, head)          # [4, 2, 3]
 
 def print_list(node):
     """Iteracyjne wypisanie listy jednokierunkowej."""
@@ -20,13 +20,10 @@ def print_list(node):
         print node
         node = node.next
 
+print 'cala lista'
+print_list(head)
+
 def remove_head(node):
-    # Funkcje powinny zwracac pare(new_head, data)
-    '''
-    Funkcja zwraca:
-    new_head - instancja Node ktora do momentu usuniecia pierwszego elementu byla drugim elementm
-    data - wartosc ktora byla przypisana do pierwszego elementu, ktory zostal usuniety.
-    '''
     if node == None:
         raise ValueError
     else:
@@ -35,22 +32,27 @@ def remove_head(node):
 
     return new_head, data
 
+head, data = remove_head(head)
+print "lista po usunieciu pierwszego elementu"
+print_list(head)
+
+
 def remove_tail(node):
     if node == None:
         raise ValueError
+    elif node.next == None:
+        return None, node.data
     else:
+        head = node
         while node:
-            next_node = node.next
-            if next_node == None:
-                node.next = None
-                return next_node, node.data
-            elif next_node.next == None:
-                node.next = None
-                return next_node, node.data
+            last = node
+            if last.next.next == None:
+                data = last.next.data
+                last.next = None
+                return head, data
             else:
-                node = next_node
+                node = node.next
 
-# remove_tail(head)
-
+head, data = remove_tail(head)
+print "lista po usunieciu ostatniego elementu"
 print_list(head)
-
