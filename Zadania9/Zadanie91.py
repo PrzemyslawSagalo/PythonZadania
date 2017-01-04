@@ -23,6 +23,7 @@ def print_list(node):
 print 'cala lista'
 print_list(head)
 
+# ------------------------------------------------------------------------------
 def remove_head(node):
     if node == None:
         raise ValueError
@@ -32,6 +33,7 @@ def remove_head(node):
 
     return new_head, data
 
+# Sprawdzenie
 head, data = remove_head(head)
 print "lista po usunieciu pierwszego elementu"
 print_list(head)
@@ -53,6 +55,7 @@ def remove_tail(node):
             else:
                 node = node.next
 
+# Sprawdzenie
 head, data = remove_tail(head)
 print "lista po usunieciu ostatniego elementu"
 print_list(head)
