@@ -36,3 +36,21 @@ def count_leafs(top):
     return liczba_lisci
 
 print count_leafs(root)
+
+
+def calc_total(top):
+    suma_l_drz = 0
+
+    def count(item):
+        return item.data
+
+    if top is None:
+        return 0
+    suma_l_drz += count(top)
+    suma_l_drz += calc_total(top.left)
+    suma_l_drz += calc_total(top.right)
+
+    return suma_l_drz
+
+
+print calc_total(root)
