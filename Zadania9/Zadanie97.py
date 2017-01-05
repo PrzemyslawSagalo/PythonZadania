@@ -1,3 +1,4 @@
+# Python 2.7.4.
 class Node:
     """Klasa reprezentujaca wezel drzewa binarnego."""
 

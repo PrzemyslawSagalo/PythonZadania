@@ -1,3 +1,4 @@
+# Python 2.7.4.
 class Node:
     def __init__(self, data=None, next=None):
         self.data = data
@@ -12,7 +13,7 @@ head = None
 head = None                   # [], pusta lista
 head = Node(3, head)          # [3]
 head = Node(2, head)          # [2, 3]
-# head = Node(4, head)          # [4, 2, 3]
+head = Node(4, head)          # [4, 2, 3]
 
 def print_list(node):
     """Iteracyjne wypisanie listy jednokierunkowej."""
