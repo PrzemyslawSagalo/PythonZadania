@@ -2,6 +2,7 @@
 
 from Points import Point
 import math
+import numpy as np
 
 class Circle:
     """Klasa reprezentujaca okregi na plaszczyznie."""
@@ -43,12 +44,26 @@ class Circle:
         self.pt.x = self.pt.x + x_step
         self.pt.y = self.pt.y + y_step
 
-    def cover(self, other):
-        """
-        okrag pokrywajacy oba
-        """
-        max_x = max([abs(self.pt.x) + self.radius, abs(other.pt.x) + other.radius])
-        max_y = max([max(abs(self.pt.y) + self.radius, abs(other.pt.y) + other.radius)])
-        max_radius = max([max_x, max_y])
+    # def cover(self, other):
+    #     """
+    #     okrag pokrywajacy oba
+    #     """
+    #     x1 = self.pt.x
+    #     y1 = self.pt.y
+    #     r1 = self.radius
+    #     x2 = other.pt.x
+    #     y2 = other.pt.y
+    #     r2 = other.radius
+    #
+    #     XX = np.array([[x1, 1],[x2, 1]])
+    #     YY = np.array([y1, y2])
+    #
+    #     a, b = np.linalg.solve(XX, YY)
+    #
+    #     R = r2/2 + r1/2 + (math.sqrt(1 + pow(a,2))/2) * (x2-x1)
+    #
+    #     x = (2/math.sqrt(1+pow(a,2))) * (R - r2/2 - r1/2) + x1
+    #     y = (2 * a/math.sqrt(1+pow(a,2))) * (R - r2/2 - r1/2) + y1
+    #
+    #     return Circle(x, y, R)
 
-        return Circle(0, 0, max_radius)

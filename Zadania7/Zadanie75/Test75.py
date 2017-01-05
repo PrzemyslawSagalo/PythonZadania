@@ -43,8 +43,8 @@ class TestCircles(unittest.TestCase):
         self.C0.move(1,-1)
         self.assertEqual(self.C0.pt, Points.Point(2,0))
 
-    def test_cover(self):
-        self.assertEqual(circles.Circle(1,1,5).cover(self.C0), circles.Circle(0, 0, 6))
+    # def test_cover(self):
+    #     self.assertEqual(circles.Circle(1,1,5).cover(self.C0), circles.Circle(0, 0, 6))
 
     def tearDown(self):
         self.C0 = None
