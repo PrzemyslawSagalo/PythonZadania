@@ -44,26 +44,29 @@ class Circle:
         self.pt.x = self.pt.x + x_step
         self.pt.y = self.pt.y + y_step
 
-    # def cover(self, other):
-    #     """
-    #     okrag pokrywajacy oba
-    #     """
-    #     x1 = self.pt.x
-    #     y1 = self.pt.y
-    #     r1 = self.radius
-    #     x2 = other.pt.x
-    #     y2 = other.pt.y
-    #     r2 = other.radius
-    #
-    #     XX = np.array([[x1, 1],[x2, 1]])
-    #     YY = np.array([y1, y2])
-    #
-    #     a, b = np.linalg.solve(XX, YY)
-    #
-    #     R = r2/2 + r1/2 + (math.sqrt(1 + pow(a,2))/2) * (x2-x1)
-    #
-    #     x = (2/math.sqrt(1+pow(a,2))) * (R - r2/2 - r1/2) + x1
-    #     y = (2 * a/math.sqrt(1+pow(a,2))) * (R - r2/2 - r1/2) + y1
-    #
-    #     return Circle(x, y, R)
+    def cover(self, other):
+        """
+        okrag pokrywajacy oba
+        """
+        x1 = float(self.pt.x)
+        y1 = float(self.pt.y)
+        r1 = float(self.radius)
+        x2 = float(other.pt.x)
+        y2 = float(other.pt.y)
+        r2 = float(other.radius)
+
+        D = math.sqrt(pow((x2-x1),2) + pow((y2 - y1),2))
+
+        a = (y2 - y1) / (x2 - x1)
+        b = (y1 * x2 - y2 * x1) / (x2 - x1)
+
+        R = (1/2.) * (r1 + r2 + D)
+
+        L1 = pow((R-r2),2)
+        L2 = pow((R-r1),2)
+
+        x = (L1 - L2 - pow(x2,2) + pow(x1,2) - pow(y2,2) + pow(y1,2) - 2 * b * (y1 - y2)) / (2 * ( (x1 - x2) +  (y1 - y2) * a))
+        y= a * x + b
+
+        return Circle(x, y, R)
 
