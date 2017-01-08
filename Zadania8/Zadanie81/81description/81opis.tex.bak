@@ -6,6 +6,8 @@
 \usepackage{graphicx}
 \usepackage[colorinlistoftodos]{todonotes}
 
+\usepackage{float}
+
 \usepackage{listings}
 
 \title{Opis zadania 8.1}
@@ -17,12 +19,16 @@
 \begin{document}
 \maketitle
 \section{Specyfikacja problemu}   
-Rozwiązanie równania liniowego:
+Równanie postaci:
 \begin{equation}
 a \cdot x + b \cdot y+c = 0 
-\end{equation} 
-zależy od wartości współczynników $a$, $b$ i $c$.
-Powyższe równanie możemy rozwikłać, tak aby wartość $y$ wyznaczana była w sposób bezpośredni:
+\end{equation}
+nazywamy \textbf{równaniem ogólnym prostej}. 
+Równanie to zależy od wartości trzech współczynników $a$, $b$ i $c$.
+Jeżeli współczynnik $a = 0$, to prosta jest równoległa do osi $Ox$, jeżeli współczynnik $b=0$, to prosta jest równoległa do osi $Oy$ z kolei gdy $c=0$, to prosta przechodzi przez środek układu współrzędnych.
+Jeżeli współczynniki $a$ i $b$ są równocześnie równe zeru, wtedy równanie to nie opisuje prostej, lecz w przypadku gdy $c=0$ równanie to opisuje całą płaszczyznę, a dla $c \neq 0$ jest sprzeczne.
+
+Powyższe równanie możemy przedstawić w postaci kierunkowej, tak aby wartość $y$ wyznaczana była w sposób bezpośredni:
 \begin{equation}
 \label{eq:form2}
 y = - \frac{a}{b} x - \frac{c}{b}.
@@ -43,23 +49,22 @@ y = - \frac{a}{b} \cdot x.
 \item Sprawdź czy $b=0$. Jeżeli tak to należy zakończyć program i np. zwrócić wyjątek, jeżeli nie idź dalej,
 \item jeżeli $a=0$ i $c=0$, to $y=0$,
 \item jeżeli $a=0$, to $y = - \frac{c}{b}$,
-\item jeżeli $y = - \frac{a}{b} \cdot x$,
-\item z kolei w ostatnim kroku sprawdzamy ostatnią możliwość czyli $a \neq 0$ i $b \neq 0$ i $c \neq 0$ co daje rozwiązanie w postaci: $y = - \frac{a}{b} x - \frac{c}{b}$.
+\item jeżeli $c=0$, to $y = - \frac{a}{b} \cdot x$,
+\item z kolei w ostatnim kroku sprawdzamy ostatnią możliwość czyli: $a \neq 0$ i $b \neq 0$ i $c \neq 0$ co daje rozwiązanie w postaci: $y = - \frac{a}{b} x - \frac{c}{b}$.
 \end{enumerate}
 
 \section{Schemat blokowy}
-\begin{figure}[htb]
+\begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=9cm]{block_diagram.png}
+		\includegraphics[width=11cm]{block_diagram.png}
 		\caption{Schemat blokowy powyższego zagadnienia.}
 	\end{center}	
 \end{figure}
-\newpage
 
 \section{Schemat w postaci drzewa}
-\begin{figure}[htb]
+\begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=13cm]{tree_diagram.png}
+		\includegraphics[width=15cm]{tree_diagram.png}
 		\caption{Schemat w postaci drzewa dla powyższego zagadnienia.}
 	\end{center}	
 \end{figure}
