@@ -2,8 +2,8 @@ from matplotlib import pyplot as plt
 from matplotlib import animation
 from copy import copy
 
-data = [9, 8, 7, 6, 5, 4, 3, 2, 1]
-
+# data = [9, 8, 7, 6, 5, 4, 3, 2, 1]
+data = [54,26,93,17,77,31,44,55,20]
 
 def bubbleSort(alist):
     y_list = []
