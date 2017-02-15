@@ -9,7 +9,7 @@ class TestCircles(unittest.TestCase):
 
     def test_przepelnienie(self):
         '''
-        test przepelnienia stosu
+        test przepelnienia kolejki
         '''
         with self.assertRaises(ValueError):
             for i in range(6):
@@ -17,7 +17,7 @@ class TestCircles(unittest.TestCase):
 
     def test_pobieranie_pusty(self):
         '''
-        test pobierania z pustego stosu
+        test pobierania z pustej kolejki
         '''
         with self.assertRaises(ValueError):
             self.testowy2.get()

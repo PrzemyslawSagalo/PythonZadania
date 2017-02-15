@@ -44,13 +44,13 @@ class RandomQueue:
 
             return data
 
-kolej1 = RandomQueue(3)
-
-for i in range(3):
-    kolej1.insert(i)
-
-kolej1.remove()
-kolej1.remove()
-kolej1.remove()
-
-print kolej1
+# kolej1 = RandomQueue(3)
+#
+# for i in range(3):
+#     kolej1.insert(i)
+#
+# kolej1.remove()
+# kolej1.remove()
+# kolej1.remove()
+#
+# print kolej1

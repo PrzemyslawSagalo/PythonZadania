@@ -25,7 +25,6 @@ class TestCircles(unittest.TestCase):
             self.stos_testowy2.pop()
 
 
-
     def tearDown(self):
         self.stos_testowy1 = None
 
