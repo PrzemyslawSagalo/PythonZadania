@@ -13,7 +13,7 @@ class TestCircles(unittest.TestCase):
         '''
         with self.assertRaises(ValueError):
             for i in range(6):
-                self.testowy1.put(i)
+                self.testowy1.insert(i)
 
     def test_pobieranie_pusty(self):
         '''

@@ -27,15 +27,4 @@ class Queue:
             self.items[self.head] = None      # usuwam referencje
             self.head = (self.head + 1) % self.n
             return data
-#
-#     def pp(self):
-#         print self.items
-#
-# kolej1 = Queue()
-#
-#
-# for i in range(5):
-#     kolej1.put(i)
-#
-# kolej1.pp()
 
