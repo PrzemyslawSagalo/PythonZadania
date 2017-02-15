@@ -25,32 +25,37 @@ a \cdot x + b \cdot y+c = 0
 \end{equation}
 nazywamy \textbf{równaniem ogólnym prostej}. 
 Równanie to zależy od wartości trzech współczynników $a$, $b$ i $c$.
-Jeżeli współczynnik $a = 0$, to prosta jest równoległa do osi $Ox$, jeżeli współczynnik $b=0$, to prosta jest równoległa do osi $Oy$ z kolei gdy $c=0$, to prosta przechodzi przez środek układu współrzędnych.
+W zależności od wartości tych współczynników równanie to może wystąpić w ośmiu postaciach. \\
+W przypadku gdy wszystkie współczynniki są równe 0, równanie to jest zawsze spełnione.\\
+Jeżeli $a=b=0$ oraz $c\neq0$ to równanie jest sprzeczne.\\
+Gdy $b\neq0$ a pozostałe współczynniki są równe 0, to $x$ jest dowolne a $y=0$.\\
+W przypadku gdy tylko współczynnik $a=0$, to $x$ jest dowolne a $y = \frac{-c}{b}$.\\
+Gdy tylko $a\neq0$, to $x=0$ i $y$ jest dowolne.\\
+Jeżeli tylko $b=0$, to $x = -\frac{c}{a}$ i $y$ jest dowolny.\\
+Dla $c=0$, $y=\frac{-a}{x} \cdot x$ z kolei jeżeli wszystkie współczynniki są różne od zera to $y=\frac{-a}{b} \cdot x - \frac{c}{b}$.   
+
+W ujęci geometrycznym jeżeli współczynnik $a = 0$, to prosta jest równoległa do osi $Ox$, jeżeli współczynnik $b=0$, to prosta jest równoległa do osi $Oy$ z kolei gdy $c=0$, to prosta przechodzi przez środek układu współrzędnych.
 Jeżeli współczynniki $a$ i $b$ są równocześnie równe zeru, wtedy równanie to nie opisuje prostej, lecz w przypadku gdy $c=0$ równanie to opisuje całą płaszczyznę, a dla $c \neq 0$ jest sprzeczne.
 
-Powyższe równanie możemy przedstawić w postaci kierunkowej, tak aby wartość $y$ wyznaczana była w sposób bezpośredni:
-\begin{equation}
-\label{eq:form2}
-y = - \frac{a}{b} x - \frac{c}{b}.
-\end{equation}
-Taka postać równania wymusza aby $b \neq 0$.
-\newline
-Gdy $a=0$ równanie \ref{eq:form2} przyjmuje postać:
-\begin{equation}
-y = - \frac{c}{b}.
-\end{equation}
-Z kolei gdy $c=0$ równanie \ref{eq:form2} ma postać:
-\begin{equation}
-y = - \frac{a}{b} \cdot x.
-\end{equation}
 
 \section{List kroków}
 \begin{enumerate}
-\item Sprawdź czy $b=0$. Jeżeli tak to należy zakończyć program i np. zwrócić wyjątek, jeżeli nie idź dalej,
-\item jeżeli $a=0$ i $c=0$, to $y=0$,
-\item jeżeli $a=0$, to $y = - \frac{c}{b}$,
-\item jeżeli $c=0$, to $y = - \frac{a}{b} \cdot x$,
-\item z kolei w ostatnim kroku sprawdzamy ostatnią możliwość czyli: $a \neq 0$ i $b \neq 0$ i $c \neq 0$ co daje rozwiązanie w postaci: $y = - \frac{a}{b} x - \frac{c}{b}$.
+\item if a == 0 and b == 0 and c == 0:
+    równanie jest zawsze spełnione
+\item elif a == 0 and b == 0 and c != 0:
+    rownanie jest sprzeczne
+\item elif a == 0 and b != 0 and c == 0:
+    x - dowolne, y=0
+\item elif a == 0 and b != 0 and c != 0:
+    x - dowolne, y=$-c/b$
+\item elif a != 0 and b == 0 and c == 0:
+    x=0, y - dowolne
+\item elif a != 0 and b == 0 and c != 0:
+    x=-c/float(a), y - dowolne
+\item elif a != 0 and b != 0 and c == 0:
+    y=-a/b x
+\item elif a != 0 and b != 0 and c != 0:
+    y=$-a/b x  -c/b$
 \end{enumerate}
 
 \section{Schemat blokowy}
@@ -74,19 +79,25 @@ y = - \frac{a}{b} \cdot x.
 \begin{lstlisting}[language=Python]
 def solve1(a, b, c):
     """Rozwiazywanie rownania liniowego a x + b y + c = 0."""
-    if b == 0:
-        raise ValueError('b nie moze byc rowne 0')
-    else:
-        if a == 0 and c == 0:
-            to_return = 'y=0'
-        elif a == 0:
-            to_return = 'y={}'.format(-c / float(b))
-        elif c == 0:
-            to_return = 'y={}*x'.format(-a/float(b))
-        else:
-            to_return = 'y={0}*x{1}'.format(-a/float(b), -c/float(b))
+    if a == 0 and b == 0 and c == 0:
+        to_return = 'rownanie jest zawsze spelnione'
+    elif a == 0 and b == 0 and c != 0:
+        to_return = 'rownanie jest sprzeczne'
+    elif a == 0 and b != 0 and c == 0:
+        to_return = 'x - dowolne, y=0'
+    elif a == 0 and b != 0 and c != 0:
+        to_return = 'x - dowolne, y={}'.format(-c/float(b))
+    elif a != 0 and b == 0 and c == 0:
+        to_return = 'x=0, y - dowolne'
+    elif a != 0 and b == 0 and c != 0:
+        to_return = 'x={}, y - dowolne'.format(-c/float(a))
+    elif a != 0 and b != 0 and c == 0:
+        to_return = 'y={} x'.format(-a/float(b))
+    elif a != 0 and b != 0 and c != 0:
+        to_return = 'y={0} x {1}'.format(-a/float(b), -c/float(b))
 
     return to_return
+
 \end{lstlisting}
 
 \end{document}

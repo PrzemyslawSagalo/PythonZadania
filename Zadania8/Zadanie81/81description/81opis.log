@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.8)  8 JAN 2017 18:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.8)  15 FEB 2017 23:30
 entering extended mode
 **./81opis.tex
 (81opis.tex
@@ -927,23 +927,23 @@ LaTeX Font Info:    External font `plex10' loaded for size
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <5> on input line 23.
 
-<block_diagram.png, id=4, 356.33125pt x 454.69875pt>
+<block_diagram.png, id=4, 502.87875pt x 825.0825pt>
 File: block_diagram.png Graphic file (type png)
  <use block_diagram.png>
-Package pdftex.def Info: block_diagram.png used on input line 59.
-(pdftex.def)             Requested size: 312.9803pt x 399.39375pt.
+Package pdftex.def Info: block_diagram.png used on input line 64.
+(pdftex.def)             Requested size: 312.9803pt x 513.50987pt.
 
 [1
 
 {C:/Users/Przemysław Sagało/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
-}] <tree_diagram.png, id=17, 527.9725pt x 557.08125pt>
+}] <tree_diagram.png, id=18, 1097.09875pt x 919.435pt>
 File: tree_diagram.png Graphic file (type png)
 
 <use tree_diagram.png>
-Package pdftex.def Info: tree_diagram.png used on input line 67.
-(pdftex.def)             Requested size: 426.79134pt x 450.3153pt.
+Package pdftex.def Info: tree_diagram.png used on input line 72.
+(pdftex.def)             Requested size: 426.79134pt x 357.66629pt.
 
-Overfull \hbox (81.79134pt too wide) in paragraph at lines 67--68
+Overfull \hbox (81.79134pt too wide) in paragraph at lines 72--73
  [] 
  []
 
@@ -951,45 +951,55 @@ Overfull \hbox (81.79134pt too wide) in paragraph at lines 67--68
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Overfull \hbox (21.00372pt too wide) in paragraph at lines 76--77
+Overfull \hbox (21.00372pt too wide) in paragraph at lines 81--82
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 83.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 89.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 89.
 
-Overfull \hbox (69.00421pt too wide) in paragraph at lines 87--89
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 89--90
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.0036pt too wide) in paragraph at lines 93--94
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (51.00403pt too wide) in paragraph at lines 97--99
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 [4] (81opis.aux) ) 
 Here is how much of TeX's memory you used:
- 14910 strings out of 493334
- 278462 string characters out of 3139208
- 343390 words of memory out of 3000000
- 18133 multiletter control sequences out of 15000+200000
+ 14907 strings out of 493334
+ 278413 string characters out of 3139208
+ 352381 words of memory out of 3000000
+ 18130 multiletter control sequences out of 15000+200000
  13315 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,6n,74p,419b,1509s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/plit.enc}{C:/
 Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/plmi.enc}{C:/Program Files/MiKTeX 2
-.9/fonts/enc/dvips/pl/plrm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/
-plms.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+.9/fonts/enc/dvips/pl/plms.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/
+plrm.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plbx10.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/pl/plbx12.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/pl/plmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl
 /plmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plr10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/pl/plr12.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/pl/plr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/pl/plsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plti10.pf
-b>
-Output written on 81opis.pdf (4 pages, 119081 bytes).
+blic/pl/plsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plsy7.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plti10.pfb>
+Output written on 81opis.pdf (4 pages, 181239 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
