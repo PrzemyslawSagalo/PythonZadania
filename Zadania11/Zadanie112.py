@@ -42,6 +42,6 @@ def animate(i):
 
 anim = animation.FuncAnimation(fig, animate, init_func=init, frames=len(x_list) - 1, interval=500, blit=True)
 
-# anim.save('bubbleSort_animation.gif')
+anim.save('bubbleSort_animation.gif')
 
 plt.show()

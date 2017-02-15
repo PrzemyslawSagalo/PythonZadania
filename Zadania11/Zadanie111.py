@@ -1,16 +1,11 @@
 import random
 from scipy.stats import truncnorm
-from copy import copy
 import numpy as np
 import matplotlib.pyplot as plt
-
-aa = [4,3,2,1,0,2]
 
 def bubbleSort(alist):
     """
     Sortowanie buble sort ale wykonwane do polowy. Funkcja potrzebna do wygenerowania ciagow PRAWIE posortowanych.
-    :param alist:
-    :return:
     """
     for passnum in range(len(alist) - 1, len(alist)/2, -1):
         for i in range(passnum):
@@ -25,7 +20,7 @@ def rand_1(N, k):
     # lista k ROZNYCH liczb od 0 do N-1
 
     return random.sample(range(N), k)
-# # test
+# test
 # print rand_1(50,5)
 
 def rand_2(N):
@@ -34,14 +29,25 @@ def rand_2(N):
     list = bubbleSort(list)
 
     return list
-# # test
+# test
 # print rand_2(10)
 
 def rand_2_rev(N):
     # rozne liczby prawie posortowane w odwrotnej kolejnosci
     return rand_2(N)[::-1]
-# # test
+# test
 # print rand_2_rev(10)
+
+def rand_x(zbior_liczb, N):
+    # N liczb w kolejnosci losowej, o wartosciach powtarzajscych sie, nalezacych do zbioru k elementowego (k < N, np. k*k = N)
+    temp = []
+
+    for i in range(N):
+        temp.append(random.choice(zbior_liczb))
+
+    return temp
+# Test
+# print rand_x([2, 2, 3, 4, 5], 9)
 
 
 def rand_int_gauss(N, k):
@@ -55,20 +61,8 @@ def rand_int_gauss(N, k):
 
     return X
 # # Kod testujacy rand_int_gauss
-# nums = rand_int_gauss(10000,5)
-# print nums
-# bins = 2 * 10 + 1
-# plt.hist(nums, bins = bins)
-# plt.show()
-
-
-def rand_x(zbior_liczb, N):
-    # N liczb w kolejnosci losowej, o wartosciach powtarzajscych sie, nalezacych do zbioru k elementowego (k < N, np. k*k = N)
-    temp = []
-
-    for i in range(N):
-        temp.append(random.choice(zbior_liczb))
-
-    return temp
-# # Test
-# print rand_x([2, 2, 3, 4, 5], 9)
+nums = rand_int_gauss(10000,5)
+print nums
+bins = 2 * 10 + 1
+plt.hist(nums, bins = bins)
+plt.show()
