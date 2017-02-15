@@ -48,12 +48,21 @@ class Circle:
         """
         okrag pokrywajacy oba
         """
-        x1 = float(self.pt.x)
-        y1 = float(self.pt.y)
-        r1 = float(self.radius)
-        x2 = float(other.pt.x)
-        y2 = float(other.pt.y)
-        r2 = float(other.radius)
+
+        if other.pt.y < self.pt.y:
+            x2 = float(self.pt.x)
+            y2 = float(self.pt.y)
+            r2 = float(self.radius)
+            x1 = float(other.pt.x)
+            y1 = float(other.pt.y)
+            r1 = float(other.radius)
+        else:
+            x1 = float(self.pt.x)
+            y1 = float(self.pt.y)
+            r1 = float(self.radius)
+            x2 = float(other.pt.x)
+            y2 = float(other.pt.y)
+            r2 = float(other.radius)
 
         D = math.sqrt(pow((x2-x1),2) + pow((y2 - y1),2)) # Odleglosc pomiedzy okregami
 
@@ -61,6 +70,7 @@ class Circle:
             wiekszy = self
         else:
             wiekszy = other
+
 
         # Sprawdzamy czy jeden okrag zawiera sie w drugim.
         # Jezeli tak to zwracamy wiekszy okrag.
@@ -70,16 +80,25 @@ class Circle:
         else:
             # Okregi leza na jednej prostej o rownaniu ogolnym y = ax + b.
             # Ponizej znajduja sie wspolczynniki tej prostej.
-            a = (y2 - y1) / (x2 - x1)
-            b = (y1 * x2 - y2 * x1) / (x2 - x1)
+            try:
+                a = (y2 - y1) / (x2 - x1)
+                b = (y1 * x2 - y2 * x1) / (x2 - x1)
+            except ZeroDivisionError:
+                a = 0
+                b = 0
 
             R = (1/2.) * (r1 + r2 + D)
 
             L1 = pow((R-r2),2)
             L2 = pow((R-r1),2)
 
-            x = (L1 - L2 - pow(x2,2) + pow(x1,2) - pow(y2,2) + pow(y1,2) - 2 * b * (y1 - y2)) / (2 * ( (x1 - x2) +  (y1 - y2) * a))
-            y = a * x + b
+            try:
+                x = (L1 - L2 - pow(x2,2) + pow(x1,2) - pow(y2,2) + pow(y1,2) - 2 * b * (y1 - y2)) / (2 * ( (x1 - x2) +  (y1 - y2) * a))
+                y = a * x + b
+            except ZeroDivisionError:
+                R = (r2 + r1 + y2 - y1) / 2.0
+                x = x1
+                y = (R - r1) + y1
 
             return Circle(x, y, R)
 

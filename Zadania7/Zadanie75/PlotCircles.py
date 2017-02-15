@@ -2,8 +2,8 @@ import circles
 import matplotlib.pyplot as plt
 
 
-C1 = circles.Circle(1,1,2)
-C2 = circles.Circle(4,5,1)
+C1 = circles.Circle(1,5,2)
+C2 = circles.Circle(1,1,1)
 
 C3 = C1.cover(C2)
 print C3
