@@ -1,8 +1,25 @@
 import random
 from scipy.stats import truncnorm
+from copy import copy
 import numpy as np
 import matplotlib.pyplot as plt
 
+aa = [4,3,2,1,0,2]
+
+def bubbleSort(alist):
+    """
+    Sortowanie buble sort ale wykonwane do polowy. Funkcja potrzebna do wygenerowania ciagow PRAWIE posortowanych.
+    :param alist:
+    :return:
+    """
+    for passnum in range(len(alist) - 1, len(alist)/2, -1):
+        for i in range(passnum):
+            if alist[i] > alist[i + 1]:
+                temp = alist[i]
+                alist[i] = alist[i + 1]
+                alist[i + 1] = temp
+
+    return alist
 
 def rand_1(N, k):
     # lista k ROZNYCH liczb od 0 do N-1
@@ -11,9 +28,20 @@ def rand_1(N, k):
 # # test
 # print rand_1(50,5)
 
-# rozne liczy od 0 do N-1 prawie posortowane
+def rand_2(N):
+    # rozne liczy od 0 do N-1 prawie posortowane
+    list = range(N-1,-1,-1)
+    list = bubbleSort(list)
 
-# rozne liczby prawie posortowane w odwrotnej kolejnosci
+    return list
+# # test
+# print rand_2(10)
+
+def rand_2_rev(N):
+    # rozne liczby prawie posortowane w odwrotnej kolejnosci
+    return rand_2(N)[::-1]
+# # test
+# print rand_2_rev(10)
 
 
 def rand_int_gauss(N, k):
