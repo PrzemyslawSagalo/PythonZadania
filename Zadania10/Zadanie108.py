@@ -2,55 +2,48 @@ import random
 
 class RandomQueue:
 
-    def __init__(self, n):
-        self.size = n
-        self.items = [None] * self.size
-        self.i = 0
+    def __init__(self):
+        self.items = []
 
     def __str__(self):
         return str(self.items)
 
     def is_empty(self):
-        if self.i == 0:
-            return True
-        else:
-            return False
+        return not self.items
 
     def is_full(self):
-        if self.i == self.size:
-            return True
-        else:
-            return False
+        return False
 
     def insert(self, data):
-        if self.is_full():
-            raise ValueError
-        else:
-            self.items[self.i] = data
-            self.i += 1
+        self.items.append(data)
 
     def remove(self):
         if self.is_empty():
             raise ValueError
         else:
-            it = random.randint(0, self.i-1)
+            it = random.randint(0, len(self.items)-1) # losujemy element
             print it
 
-            data = self.items.pop(it) # wycigamy it element z koleiki
+            temp = self.items[it] # przypisujemy wylosowana wartosc to tymczasowej zmiennej
 
-            self.items.append(None) # dopisujemy do konca kolejki None
+            i_last = len(self.items) - 1
 
-            self.i -= 1 # cofamy o jeden iterator
+            self.items[it] = self.items[i_last] # przeypisujemy ostatnia wartosc do pozycji it
 
-            return data
+            del self.items[i_last] # usuwamy ostatni element
 
-# kolej1 = RandomQueue(3)
-#
-# for i in range(3):
-#     kolej1.insert(i)
-#
-# kolej1.remove()
-# kolej1.remove()
-# kolej1.remove()
-#
-# print kolej1
+            return temp # zwracamy wylosowana wartosc
+
+kolej1 = RandomQueue()
+
+for i in range(3):
+    kolej1.insert(i)
+
+kolej1.remove()
+print kolej1
+kolej1.remove()
+print kolej1
+kolej1.remove()
+print kolej1
+
+

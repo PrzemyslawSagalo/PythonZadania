@@ -8,17 +8,11 @@ class TestCircles(unittest.TestCase):
         self.testowy2 = Zadanie104.Queue()
 
     def test_przepelnienie(self):
-        '''
-        test przepelnienia kolejki
-        '''
         with self.assertRaises(ValueError):
             for i in range(6):
                 self.testowy1.insert(i)
 
     def test_pobieranie_pusty(self):
-        '''
-        test pobierania z pustej kolejki
-        '''
         with self.assertRaises(ValueError):
             self.testowy2.get()
 
@@ -28,4 +22,4 @@ class TestCircles(unittest.TestCase):
         self.testowy1 = None
 
 if __name__ == "__main__":
-    unittest.main()     # wszystkie testy
+    unittest.main()
